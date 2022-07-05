@@ -1,1 +1,1 @@
-worker: python main.py
+web: python myApp.py runserver 0.0.0.0:$8080
