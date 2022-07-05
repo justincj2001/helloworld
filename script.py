@@ -1,3 +1,5 @@
 import platform
+import time
 while True:
-        print(platform.platform())
+        time.sleep(3)
+        print(platform.platform()[0:-15])
